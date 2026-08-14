@@ -7,7 +7,7 @@ import UrlScanner from './components/UrlScanner';
 import ModelMetrics from './components/ModelMetrics';
 import RulesEngine from './components/RulesEngine';
 
-const BACKEND_URL = 'http://127.0.0.1:8000';
+const BACKEND_URL = '';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
